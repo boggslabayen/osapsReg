@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 function Banner(props) {
     return (
-        <div className="py-10  bg-yellow-50    ">
+        <div className="py-10  bg-yellow-50    w-full">
 
         <div className="md:flex mx-auto justify-between items-center px-8 md:px-0 md:max-w-screen-xl">
 
@@ -37,12 +37,16 @@ function Banner(props) {
         </div>
 
         
+        <div className="md:inline-flex pt-8 md:pt-0 justify-center">
+
         <StaticImage
             alt="Image of a person talking in stage"
             src="../images/register-image.png"
-            className="hidden md:inline-flex"
-            
+            className="w-2/3 md:w-full"
             />
+
+        </div>
+       
         
        
             

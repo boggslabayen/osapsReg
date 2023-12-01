@@ -11,7 +11,7 @@ const Register = () => {
         <div className="justify-center">
         <StickyNavbar />
         <Banner 
-        headline="Secure your spot at OSAPS 2024:Register today!"
+        headline="Secure your spot at OSAPS 2024: Register today!"
         buttonName="Register"
         subtitle="Early bird rates ends on 12/31/2023"
          />
