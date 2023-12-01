@@ -6,5 +6,9 @@ module.exports = {
     title: `osapsreg2024`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-postcss',
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
