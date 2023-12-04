@@ -56,7 +56,7 @@ export function TableWithStripedRows() {
           {TABLE_ROWS.map(({ type, earlyBird, standard,onSite }, index) => (
             <tr key={type} className="even:bg-blue-gray-50/50">
               <td className="p-4">
-                <Typography  color="blue-gray" className="font-normal md:text-center md:text-lgw-full">
+                <Typography  color="blue-gray" className="font-normal md:text-center md:text-lg w-full">
                   {type}
                 </Typography>
               </td>
@@ -95,12 +95,6 @@ export function TableWithStripedRows() {
 const TABLE_HEAD2 = ["Add-Ons","Early-bird Rate", "Standard Rate", "On-site Rate"];
  
 const TABLE_ROWS2 = [
-  {
-    type:"Additional Companion / Guest (Local)",
-    earlyBird: "₱ 5000",
-    standard: "₱ 5000",
-    onSite: "₱ 5000",
-  },
   {
     type:"Additional Companion / Guest (Foreign)",
     earlyBird: "US $ 130",
